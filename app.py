@@ -1,6 +1,7 @@
 import requests
 
-URL = "https://complicated-api.herokuapp.com/"
+API_URL = "https://complicated-api.herokuapp.com/"
+GITHUB_REPO = "https://github.com/JagTheFriend/Complex-API"
 
 __all__ = [
     "compile", "reddit", "lyrics",
@@ -10,7 +11,7 @@ __all__ = [
 
 
 def main() -> str:
-    return requests.get(f"{URL}").text
+    return requests.get(f"{API_URL}").text
 
 
 def compile(*, lang, code) -> dict:
@@ -20,7 +21,7 @@ def compile(*, lang, code) -> dict:
     :param code: The code to be compiled
     :return: Dictionary
     """
-    return requests.get(f"{URL}/compile={lang}_{code}").json()
+    return requests.get(f"{API_URL}/compile={lang}_{code}").json()
 
 
 def reddit(*, limit: float, subreddit: str) -> dict:
@@ -30,7 +31,7 @@ def reddit(*, limit: float, subreddit: str) -> dict:
     :param limit: Number of posts to be returned
     :return: Dictionary
     """
-    return requests.get(f"{URL}/reddit={subreddit}+{limit}").json()
+    return requests.get(f"{API_URL}/reddit={subreddit}+{limit}").json()
 
 
 def lyrics(*, song: str) -> dict:
@@ -39,7 +40,7 @@ def lyrics(*, song: str) -> dict:
     :param song: Name of the song
     :return: Dictionary
     """
-    return requests.get(f"{URL}/lyrics+{song}").json()
+    return requests.get(f"{API_URL}/lyrics+{song}").json()
 
 
 def ascii(*, text) -> dict:
@@ -48,7 +49,7 @@ def ascii(*, text) -> dict:
     :param text: The text which should be converted to Pixel art
     :return: Dictionary
     """
-    return requests.get(f"{URL}/ascii_{text}").json()
+    return requests.get(f"{API_URL}/ascii_{text}").json()
 
 
 def temp(*, place) -> dict:
@@ -57,7 +58,7 @@ def temp(*, place) -> dict:
     :param place: The name of the place whose weather would be found
     :return: Dictionary
     """
-    return requests.get(f"{URL}/temp={place}").json()
+    return requests.get(f"{API_URL}/temp={place}").json()
 
 
 def length(*, playlist: str) -> dict:
@@ -66,7 +67,7 @@ def length(*, playlist: str) -> dict:
     :param playlist: This a unique id given to each playlist
     :return: Dictionary
     """
-    return requests.get(f"{URL}/length+{playlist}").json()
+    return requests.get(f"{API_URL}/length+{playlist}").json()
 
 
 def inspire() -> dict:
@@ -74,7 +75,7 @@ def inspire() -> dict:
     Gets a random inspirational text
     :return: Dictionary
     """
-    return requests.get(f"{URL}/inspire").json()
+    return requests.get(f"{API_URL}/inspire").json()
 
 
 def calculator(*, formula: str) -> dict:
@@ -83,7 +84,7 @@ def calculator(*, formula: str) -> dict:
     :param formula: Stuff on which calculation will be carried on Example: 5+7*9
     :return: Dictionary
     """
-    return requests.get(f"{URL}/cal_{formula}").json()
+    return requests.get(f"{API_URL}/cal_{formula}").json()
 
 
 def hex_to_denary(*, hex_code) -> dict:
@@ -92,4 +93,4 @@ def hex_to_denary(*, hex_code) -> dict:
     :param formula: Stuff on which calculation will be carried on Example: 5+7*9
     :return: Dictionary
     """
-    return requests.get(f"{URL}/hex_to_denary+{hex_code}").json()
+    return requests.get(f"{API_URL}/hex_to_denary+{hex_code}").json()
