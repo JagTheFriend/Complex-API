@@ -1,3 +1,0 @@
-[console_scripts]
-Complex_API = Complex_API.app:main
-

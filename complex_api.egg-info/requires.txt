@@ -1,8 +1,0 @@
-autopep8
-certifi
-chardet
-idna
-pycodestyle
-requests
-toml
-urllib3
