@@ -6,9 +6,7 @@ Home-page: https://github.com/JagTheFriend/Complex-API
 Author: JagTheFriend
 Author-email: jagthefriend12@gmail.com
 License: MIT
-Description: # THIS PACKAGE IS NOT ON PYPI (yet), SO YOU WONT BE ABLE TO DOWNLOAD THIS MODULE VIA `pip`
-        
-        # Complex API.py
+Description: # Complex API.py
         This the source code for the python module I have built/working on.
         
         This module makes it easy to use my <a href="https://github.com/JagTheFriend/APICode/tree/master/API"> API </a>
