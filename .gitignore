@@ -1,2 +1,6 @@
 # venv
 Python_Module
+
+# build files
+complex_api.egg-info/
+dist/
