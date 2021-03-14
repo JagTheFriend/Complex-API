@@ -1,6 +1,6 @@
 from unittest import TestCase
 import time
-from Python_Module import app
+from Complex_API import complex_api as app
 
 # Calculator API
 formula = "6*9+6+9"
@@ -30,7 +30,7 @@ Song_name = "Falling"
 lyrics = "[Intro]\nOh\nOoh, ooh\n\n[Chorus]\nMy last made me feel like I would never try again\nBut when I saw you, I felt something I never felt\nCome closer, I'll give you all my love\nIf you treat me right, baby, I'll give you everything\nMy last made me feel like I would never try again\nBut when I saw you, I felt something I never felt\nCome closer, I'll give you all my love\nIf you treat me right, baby, I'll give you everything\n\n[Verse]\nTalk to me, I need to hear you need me like I need ya\nFall for me, I wanna know you feel how I feel for you, love\nBefore you, baby, I was numb, drown out pain by pourin' up\nSpeedin' fast on the run, never wanna get caught up\nNow you're the one that I'm callin'\nSwore I thought I'd never fall again, don't think I'm just talkin'\nI think I might go all in, no exceptions, girl, I need ya\n\n[Bridge]\nFeeling like I'm out of my mind, 'cause I can't get enough\nOnly one that I give my time, 'cause I got eyes for ya\nMight make an exception for ya, 'cause I been feelin' ya\nThink I might be out of my mind, I think that you're the one\n\n[Chorus]\nMy last made me feel like I would never try again\nBut when I saw you, I felt something I never felt\nCome closer, I'll give you all my love\nIf you treat me right, baby, I'll give you everything\nMy last made me feel like I would never try again\nBut when I saw you, I felt something I never felt\nCome closer, I'll give you all my love\nIf you treat me right, baby, I'll give you everything\n\n[Outro]\nWill never give my all again\n'Cause I'm sick of falling down\nWhen I open up and give my trust\nThey find a way to break it down\nBreak down\nTear me up inside\nWhen you break me down"
 
 # Youtube playlist length
-Length = "0 hour(s):37 minute(s):9 second(s)"
+Length = "0 hour(s):46 minute(s):39 second(s)"
 Playlist = "PLYMreygRONRAYHAfALESBgZJpftQQWSjz"
 
 # home page

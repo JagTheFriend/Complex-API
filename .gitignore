@@ -1,10 +1,18 @@
 # venv
 VENV/
+TEST_MODULES/
 
 # vscode
 .vscode/
+
+# Test file
+TESTING MODS/
 
 # build files
 complex_api.egg-info/
 dist/
 build/
+hello69.egg-info/
+
+# __pycache__
+__pycache__/

@@ -53,7 +53,7 @@ print(package.compile(lang=lang, code=code))
 
 ```py
 import package
-# example name_of_subreddit = "meme"
+# example: name_of_subreddit = "meme"
 name_of_subreddit = "name_of_a_valid_subreddit" 
 number_of_posts = 10 # number of posts to be returned
 print(package.reddit(limit=number_of_posts, subreddit=name_of_subreddit))
