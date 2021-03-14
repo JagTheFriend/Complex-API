@@ -1,5 +1,9 @@
 # venv
-Python_Module
+Python_Module/
+Test_Modules/
+
+# vscode
+.vscode/
 
 # build files
 complex_api.egg-info/
