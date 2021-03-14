@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="complex-api",
-    version="1.0.0",
+    version="1.0.1.t",
     description="It makes it easier to use the API i have built/working on",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -26,14 +26,14 @@ setup(
     packages=["Complex_API"],
     include_package_data=True,
     install_requires=[
-        "autopep8",
-        "certifi",
-        "chardet",
-        "idna",
-        "pycodestyle",
-        "requests",
-        "toml",
-        "urllib3",
+        "autopep8==1.5.5",
+        "certifi==2020.12.5",
+        "chardet==4.0.0",
+        "idna==2.10",
+        "pycodestyle==2.6.0",
+        "requests==2.25.1",
+        "toml==0.10.2",
+        "urllib3==1.26.3"
     ],
     entry_points={
         "console_scripts": [
