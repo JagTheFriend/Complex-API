@@ -1,5 +1,3 @@
-# THIS PACKAGE IS NOT ON PYPI (yet), SO YOU WONT BE ABLE TO DOWNLOAD THIS MODULE VIA `pip`
-
 # Complex API.py
 This the source code for the python module I have built/working on.
 
