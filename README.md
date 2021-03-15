@@ -140,10 +140,10 @@ print(complex_api.hex_to_denary(hex_code=formula))
 
 If you find any bugs _or have new ideas_, <br> 
 Feel free to raise a 
-  <a href="https://github.com/JagTheFriend/APICode/issues"> 
+  <a href="https://github.com/JagTheFriend/Complex-API/issues"> 
     new issue 
   </a> <br>
 Or a
-  <a href="https://github.com/JagTheFriend/APICode/pulls">
+  <a href="https://github.com/JagTheFriend/Complex-API/pulls">
     pull request
   </a>
