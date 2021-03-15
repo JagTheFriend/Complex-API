@@ -9,9 +9,9 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="complex-api",
-    version="1.1.1",
-    description="It makes it easier to use the API i have built/working on",
+    name="Complex-API",
+    version="0.0.1",
+    description="It makes it easier to use the API I have built/working on",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/JagTheFriend/Complex-API",
