@@ -23,13 +23,13 @@ Currently, the API supports:
 </a>
 
 ```py
-import package
+from Complex_API import complex_api
 # run python
 lang = "python"
 code = '''
 print('hello')
 '''
-print(package.compile(lang=lang, code=code))
+print(complex_api.compile(lang=lang, code=code))
 # run java
 lang = "java"
 code = '''
@@ -39,7 +39,7 @@ class Compiler{
     }
 }
 '''
-print(package.compile(lang=lang, code=code))
+print(complex_api.compile(lang=lang, code=code))
 ```
 
 <a href="https://complicated-api.herokuapp.com/compile=support_support">
@@ -52,11 +52,11 @@ print(package.compile(lang=lang, code=code))
 </a>
 
 ```py
-import package
+from Complex_API import complex_api
 # example: name_of_subreddit = "meme"
 name_of_subreddit = "name_of_a_valid_subreddit" 
 number_of_posts = 10 # number of posts to be returned
-print(package.reddit(limit=number_of_posts, subreddit=name_of_subreddit))
+print(complex_api.reddit(limit=number_of_posts, subreddit=name_of_subreddit))
 ```
 
 ## Lyrics API:
@@ -65,9 +65,9 @@ print(package.reddit(limit=number_of_posts, subreddit=name_of_subreddit))
 </a>
 
 ```py
-import package
+from Complex_API import complex_api
 SongName = "name of song"
-print(package.lyrics(song=SongName))
+print(complex_api.lyrics(song=SongName))
 ```
 
 ## Pixel Art:
@@ -76,9 +76,9 @@ print(package.lyrics(song=SongName))
 </a>
 
 ```py
-import package
+from Complex_API import complex_api
 text = "Hello gammer"
-print(package.ascii(text=text))
+print(complex_api.ascii(text=text))
 ```
 
 ## Weather API:
@@ -87,10 +87,10 @@ print(package.ascii(text=text))
 </a>
 
 ```py
-import package
+from Complex_API import complex_api
 # example: place = Cape Town
 place = "name of a place"
-print(package.temp(place=place))
+print(complex_api.temp(place=place))
 ```
 
 ## Youtube Playlist length finder:
@@ -99,11 +99,11 @@ print(package.temp(place=place))
 </a>
 
 ```py
-import package
+from Complex_API import complex_api
 # example URL: https://www.youtube.com/playlist?list=PL59LTecnGM1OGgddJzY-0r8vdqibi3S2H
 # id = PL59LTecnGM1OGgddJzY-0r8vdqibi3S2H
 play_list_link = "id"
-print(package.length(playlist=play_list_link))
+print(complex_api.length(playlist=play_list_link))
 ```
 
 ## Calculator:
@@ -112,9 +112,9 @@ print(package.length(playlist=play_list_link))
 </a>
 
 ```py
-import package
+from Complex_API import complex_api
 formula = "6*9+6+9" 
-print(package.calculator(formula=formula))
+print(complex_api.calculator(formula=formula))
 ```
 
 ## Inspire API:
@@ -123,8 +123,8 @@ print(package.calculator(formula=formula))
 </a>
 
 ```py
-import package
-print(package.inspire())
+from Complex_API import complex_api
+print(complex_api.inspire())
 ```
 
 ## Hexadecimal to Decimal(or Denary) converter:
@@ -133,9 +133,9 @@ print(package.inspire())
 </a>
 
 ```py
-import package
+from Complex_API import complex_api
 formula = "A6B9C1D1E1" 
-print(package.hex_to_denary(hex_code=formula))
+print(complex_api.hex_to_denary(hex_code=formula))
 ```
 
 If you find any bugs _or have new ideas_, <br> 
