@@ -82,7 +82,7 @@ print(complex_api.ascii(text=text))
 ```
 
 ## Weather API:
-<a href="https://complicated-api.herokuapp.com/temp=Cape Town">
+<a href="https://complicated-api.herokuapp.com/temp=Cape Town+metric">
   Example:
 </a>
 
@@ -90,7 +90,8 @@ print(complex_api.ascii(text=text))
 from Complex_API import complex_api
 # example: place = Cape Town
 place = "name of a place"
-print(complex_api.temp(place=place))
+unit = "metric" # or imperial
+print(complex_api.temp(place=place, unit=unit))
 ```
 
 ## Youtube Playlist length finder:
