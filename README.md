@@ -129,7 +129,7 @@ print(complex_api.inspire())
 ```
 
 ## Hexadecimal to Decimal(or Denary) converter:
-<a href="https://complicated-api.herokuapp.com/hex_to_denary+ABCDEF">
+<a href="https://complicated-api.herokuapp.com/hex+ABCDEF">
   Example: 
 </a>
 
@@ -137,6 +137,17 @@ print(complex_api.inspire())
 from Complex_API import complex_api
 formula = "A6B9C1D1E1" 
 print(complex_api.hex_to_denary(hex_code=formula))
+```
+
+## Decimal(or Denary) to Binary converter:
+<a href="https://complicated-api.herokuapp.com/binary=4969">
+  Example: 
+</a>
+
+```py
+from Complex_API import complex_api
+formula = "45713" # any number 
+print(complex_api.binary_to_denary(binary=formula))
 ```
 
 If you find any bugs _or have new ideas_, <br> 
