@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "https://complicated-api.herokuapp.com/"
+API_URL = "https://complicated-api.herokuapp.com"
 GITHUB_REPO = "https://github.com/JagTheFriend/Complex-API"
 
 __version__ = "1.1.1"
@@ -98,10 +98,10 @@ def hex_to_denary(*, hex_code: str) -> dict:
     return requests.get(f"{API_URL}/hex+{hex_code}").json()
 
 
-def decimal_to_denary(*, binary) -> dict:
+def binary_to_denary(*, binary) -> dict:
     """
     Converts Denary code to binary
     :param binary: Stuff on which calculation will be carried on Example: 4569
     :return: Dictionary
     """
-    return requests.get(f"{API_URL}/binary+{binary}").json()
+    return requests.get(f"{API_URL}/binary={binary}").json()
