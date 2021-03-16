@@ -10,6 +10,10 @@ Expected = "69"
 formula_hex = "123ABCDEF"
 Expected_hex = "4893429231"
 
+# Denary To Binary
+formula_den = "4469"
+Expected_bin = "00110100001101000011011000111001"
+
 # Compiler
 Compile_Tests = {
     "python": {"code": 'print("python")', "output": 'python'},
@@ -59,6 +63,17 @@ class Calculator(TestCase):
         self.assertIsInstance(result, str)
         # check whether the result is correct
         self.assertEqual(result, Expected_hex)
+
+    def test_denary_to_binary(self):
+        """
+        Checks:
+            whether the result of denary to binary is correct or not        
+        """
+        result = app.binary_to_denary(binary=formula_den)["output"]
+        # check whether the correct type is returned
+        self.assertIsInstance(result, str)
+        # check whether the result is correct
+        self.assertEqual(result, Expected_bin)
 
 
 class CompileTest(TestCase):
