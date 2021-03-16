@@ -95,4 +95,13 @@ def hex_to_denary(*, hex_code: str) -> dict:
     :param formula: Stuff on which calculation will be carried on Example: 5+7*9
     :return: Dictionary
     """
-    return requests.get(f"{API_URL}/hex_to_denary+{hex_code}").json()
+    return requests.get(f"{API_URL}/hex+{hex_code}").json()
+
+
+def decimal_to_denary(*, binary) -> dict:
+    """
+    Converts Denary code to binary
+    :param binary: Stuff on which calculation will be carried on Example: 4569
+    :return: Dictionary
+    """
+    return requests.get(f"{API_URL}/binary+{binary}").json()
