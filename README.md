@@ -1,7 +1,7 @@
 # Complex API.py
 This the source code for the python module I have built/working on.
 
-This module makes it easy to use my <a href="https://github.com/JagTheFriend/APICode"> API </a>
+This module makes it easy to use my <a href="https://pypi.org/project/Complex-API/"> API </a>
 
 Currently, the API supports:
   + compiling the code(of different languages) and getting the output
@@ -15,8 +15,13 @@ Currently, the API supports:
   + getting a random inspirational text
   + getting a result of a calculation
   + converting hexadecimal to decimal(or denary)
+  + converting decimal(or denary) to binary
+
 
 # Code snippets
+In order to use the API, 
+you need first download <a href="https://pypi.org/project/Complex-API/">this module (`pip install Complex-API`)</a>
+
 ## Compile API:
 <a href="https://complicated-api.herokuapp.com/compile=python_print('This works')">
   Example:
