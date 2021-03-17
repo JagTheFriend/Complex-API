@@ -44,7 +44,7 @@ Main_page = "Providing service to other user(s) <br> Here is my code: <a href='h
 class Calculator(TestCase):
     def test_calculator(self):
         """
-        Checks: 
+        Checks:
             whether the result of the calculator is correct or not
         """
         result = app.calculator(formula=formula)["output"]
@@ -56,7 +56,7 @@ class Calculator(TestCase):
     def test_hex_to_denary(self):
         """
         Checks:
-            whether the result of hexadecimal to denary is correct or not        
+            whether the result of hexadecimal to denary is correct or not
         """
         result = app.hex_to_denary(hex_code=formula_hex)["output"]
         # check whether the correct type is returned
@@ -67,7 +67,7 @@ class Calculator(TestCase):
     def test_denary_to_binary(self):
         """
         Checks:
-            whether the result of denary to binary is correct or not        
+            whether the result of denary to binary is correct or not
         """
         result = app.binary_to_denary(binary=formula_den)["output"]
         # check whether the correct type is returned
@@ -145,6 +145,8 @@ class OtherAPIS(TestCase):
     def test_main_page(self):
         """
         THIS TEST WAS NOT REQUIRED
+        Checks:
+            whether the `main page` shows the right sentence
         """
         result = app.main()
         self.assertEqual(result, Main_page)

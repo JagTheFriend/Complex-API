@@ -57,7 +57,8 @@ def temp(*, place: str, unit: str = "metric") -> dict:
     """
     Gets the weather of a place
     :param place: The name of the place whose weather would be found
-    :param unit: The unit used for measuring amounts, (it can be either 'metric' or 'imperial)
+    :param unit: The unit used for measuring amounts,
+                (it can be either 'metric' or 'imperial)
     :return: Dictionary
     """
     return requests.get(f"{API_URL}/temp={place}+{unit}").json()
@@ -83,7 +84,7 @@ def inspire() -> dict:
 def calculator(*, formula: str) -> dict:
     """
     Gets the result of a calculation
-    :param formula: Stuff on which calculation will be carried on Example: 5+7*9
+    :param formula: Stuff on which calculation will be carried
     :return: Dictionary
     """
     return requests.get(f"{API_URL}/cal_{formula}").json()
@@ -92,7 +93,7 @@ def calculator(*, formula: str) -> dict:
 def hex_to_denary(*, hex_code: str) -> dict:
     """
     Converts Hexadecimal code to decimal(or denary)
-    :param formula: Stuff on which calculation will be carried on Example: 5+7*9
+    :param formula: Stuff on which calculation will be carried on
     :return: Dictionary
     """
     return requests.get(f"{API_URL}/hex+{hex_code}").json()
