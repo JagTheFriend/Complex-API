@@ -12,7 +12,6 @@ TESTING MODS/
 complex_api.egg-info/
 dist/
 build/
-hello69.egg-info/
 
 # __pycache__
 __pycache__/
