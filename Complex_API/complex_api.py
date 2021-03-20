@@ -87,7 +87,8 @@ def calculator(*, formula: str) -> dict:
     :param formula: Stuff on which calculation will be carried
     :return: Dictionary
     """
-    return requests.get(f"{API_URL}/cal_{formula}").json()
+    new_formula = formula.replace('/', '\\')
+    return requests.get(f"{API_URL}/cal_{new_formula}").json()
 
 
 def hex_to_denary(*, hex_code: str) -> dict:
