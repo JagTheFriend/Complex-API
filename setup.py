@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="Complex-API",
-    version="0.0.8",
+    version="0.0.9",
     description="It makes it easier to use the API I have built/working on",
     long_description=README,
     long_description_content_type="text/markdown",
