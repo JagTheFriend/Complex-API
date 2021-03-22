@@ -20,7 +20,7 @@ Currently, the API supports:
 
 # Code snippets
 In order to use the API, 
-you need first download <a href="https://pypi.org/project/Complex-API/">this module (`pip install Complex-API`)</a>
+you need to first download <a href="https://pypi.org/project/Complex-API/">this module (`pip install Complex-API`)</a>
 
 ## Compile API:
 <a href="https://complicated-api.herokuapp.com/compile=python_print('This works')">
