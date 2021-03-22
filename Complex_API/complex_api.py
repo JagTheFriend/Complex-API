@@ -1,9 +1,9 @@
 import requests
 
-API_URL = "https://complicated-api.herokuapp.com"
+API_URL = "https://API.jagthefriend.repl.co"
 GITHUB_REPO = "https://github.com/JagTheFriend/Complex-API"
 
-__version__ = "1.1.1"
+__version__ = "0.0.7"
 __all__ = [
     "compile", "reddit", "lyrics",
     "ascii", "temp", "length",
