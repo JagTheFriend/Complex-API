@@ -122,6 +122,14 @@ formula = "45713" # any number
 print(complex_api.binary_to_denary(binary=formula))
 ```
 
+## Talk to my chatbot:
+[Example:](https://API.jagthefriend.repl.co/ai_"Hello")
+```py
+from Complex_API import complex_api
+text = "Hi" # any text
+print(complex_api.ai(text=text))
+```
+
 If you find any bugs _or have new ideas_,
 
 Feel free to raise a <br>
