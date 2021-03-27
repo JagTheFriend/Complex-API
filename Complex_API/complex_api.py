@@ -107,3 +107,12 @@ def binary_to_denary(*, binary) -> dict:
     :return: Dictionary
     """
     return requests.get(f"{API_URL}/binary={binary}").json()
+
+
+def ai(*, text="Hello Gamer") -> dict:
+    """
+    Converts Denary code to binary
+    :param text: Stuff on which `AI` would use to give a valid reply
+    :return: Dictionary
+    """
+    return requests.get(f"{API_URL}/ai_{text}").json()
